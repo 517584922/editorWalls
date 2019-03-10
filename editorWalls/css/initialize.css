@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    /* Firefox */
+    -webkit-box-sizing: border-box;
+    /* Safari */
+    list-style: none;
+    font-size: 12px;
+}
+
+html,
+body {
+    height: 100%;
+    background: url(../img/042.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}

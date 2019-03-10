@@ -1,0 +1,48 @@
+.controlContainer {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width:591px;
+    height: 345px;
+    background: url("../img/contralBg.png");
+    z-index: 99999;
+}
+.listContainer{
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.listContainer input{
+    margin-left: 20px;
+    margin-top: 10px;
+    width:230px;
+}
+.textFirst{
+    font-size: 18px;
+    margin-left: 40px;
+    text-align: left;
+    color: whitesmoke;
+    line-height: 36px;
+}
+.textLast{
+    font-size: 14px;
+    width: 136px;
+    text-align: left;
+    color: whitesmoke;
+    line-height: 36px;
+}
+.listButton{
+    width: 510px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-bottom: 20px;
+}
+.listButton button{
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #00ffd8;
+}
